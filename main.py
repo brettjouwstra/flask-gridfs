@@ -12,7 +12,6 @@ app = Flask(__name__)
 load_dotenv()
 MONGO_URL = os.environ['MONGO_URL']
 MONGO_DB = os.environ['DB']
-DEBUG_SET = os.environ['DEBUG_SET']
 HEADER_SEC = os.environ['HEADER_SEC']
 
 mongo_client = MongoClient(MONGO_URL)
